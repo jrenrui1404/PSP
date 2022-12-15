@@ -1,4 +1,4 @@
-/*
+package PingPong;/*
 @author santi
 @version v.1 28/11/21. Examen de Hilos
 */
@@ -19,7 +19,7 @@
     se lo queda santi y si es impar se lo queda Gabi. El aleatorio se genera dentro del
     método.
     - Lo más importante, como hemos dicho es controlar o sincronizar el turno de
-    cada uno de los juegadores (hilos), para ello la clase Jugador, utiliza el  nombre
+    cada uno de los juegadores (hilos), para ello la clase PingPong.Jugador, utiliza el  nombre
     para que cada hilo ejecute su parte correspondiente. 
     Será el primer if (this.nombre.equals("santi"))
     - Cuando entra santi o gabriel, es importante anotar el turno de cada uno, es decir
@@ -135,7 +135,7 @@ public class Jugador extends Thread{
                     }
             }
             catch (InterruptedException exc){
-                System.out.println("Jugador santi interrumpido.");
+                System.out.println("PingPong.Jugador santi interrumpido.");
              }
         }
      

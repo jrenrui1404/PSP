@@ -1,4 +1,4 @@
-/*
+package PingPong;/*
 @author santi
 @version v.1 28/11/21. Examen de Hilos
 */
