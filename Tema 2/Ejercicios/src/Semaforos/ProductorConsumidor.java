@@ -26,7 +26,7 @@ class Almacen {
             Thread.sleep(500);
 
         } catch (InterruptedException ex) {
-            Logger.getLogger(Almacen.class.getName()).log(Level.SEVERE, null );
+            Logger.getLogger(Almacen.class.getName()).log(Level.SEVERE, (String) null);
         }
     }
 
